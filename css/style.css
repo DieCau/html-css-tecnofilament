@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.img-tecno{
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar-toggler-icon {
+  filter: invert(75%);
+}
+
+.lista{
+  list-style-type: '\2713';
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  /* margin: 10px auto; */
+}
+.grid-item {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(189, 187, 187); /* Solo borde inferior */
+}
+.gray-bg {
+  background-color: #f1f1f2;
+}
+.white-bg {
+  background-color: white;
+}
+
