@@ -10,6 +10,11 @@ main {
   flex-grow: 1;
 }
 
+.img {
+  height: 700px !important;
+  object-fit: cover;
+}
+
 .img-tecno{
   width: 100%;
   object-fit: cover;
