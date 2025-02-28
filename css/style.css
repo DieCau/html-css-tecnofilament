@@ -70,3 +70,13 @@ main {
 .error {
   background-color: #f9a542;
 }
+
+.d-item {
+  height: 100vh;
+}
+
+.d-img {
+  height: 75%;
+  object-fit: cover;
+  cursor: pointer;
+}
